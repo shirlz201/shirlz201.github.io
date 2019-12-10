@@ -1,7 +1,6 @@
 /* begin main elements */
 body {
     background-color: maroon;
-    font-family: arial helvetica, sans-serif;
     color:white;
     max-width: 950px;
     margin: 0 auto;
@@ -12,6 +11,7 @@ body {
     height: 100px;
     text-align: center;
     padding: 30px 10px 20px 10px;
+    font-family: 'Lilita One', cursive;
   }
   h1 {
     font-size: 2.5em;
