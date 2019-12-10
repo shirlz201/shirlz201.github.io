@@ -14,7 +14,7 @@ body {
     font-family: 'Righteous', cursive;
   }
   h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
   nav {
     border-top: 3px dotted white;
@@ -91,6 +91,7 @@ tr{
 th{
   background: maroon;
   color: #FBF9F8;
+  font-size: 1.5em;
 }
 tr:nth-child(odd) {
   background-color: maroon;
