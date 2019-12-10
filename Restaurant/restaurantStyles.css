@@ -14,7 +14,7 @@ body {
     font-family: 'Righteous', cursive;
   }
   h1 {
-    font-size: 3.0em;
+    font-size: 3.7em;
   }
   nav {
     border-top: 3px dotted white;
@@ -95,3 +95,8 @@ td {
 text-align: center; 
 }
 /* End Menu */
+.bev {
+color: white;
+font-size: 1.5em;
+font-weight: bold;
+}
