@@ -14,7 +14,7 @@ body {
     font-family: 'Righteous', cursive;
   }
   h1 {
-    font-size: 3.5em;
+    font-size: 3.0em;
   }
   nav {
     border-top: 3px dotted white;
@@ -43,6 +43,7 @@ body {
   nav a:hover {
     background-color: palegoldenrod;
     color:red;
+    font-weight: bold;
   }
   nav a:active {
     font-weight: bold;
@@ -65,13 +66,6 @@ body {
     float: right;
   }
   /* End Editting Article*/
-  
-  /* table edit */
-  caption {
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 8px;
-  }
 
   /*menu editing begins*/
 
@@ -98,6 +92,6 @@ tr:nth-child(odd) {
 }
 /* text for table*/
 td {
-text-align: center;  
+text-align: center; 
 }
 /* End Menu */
