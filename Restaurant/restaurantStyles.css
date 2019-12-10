@@ -1,0 +1,74 @@
+/* begin main elements */
+body {
+    background-color: maroon;
+    font-family: arial helvetica, sans-serif;
+    color:white;
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  header, footer {
+    background-color: maroon;
+    color: #FBF9F8;
+    height: 100px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  nav {
+    border-top: 3px dashed white;
+    border-bottom: 3px dashed white;
+    margin-top: 4px;
+  }
+
+  /* end*/
+  
+  /* Nav beginning*/
+  nav a {
+    background: palevioletred;
+    color: #FBF9F8;
+    padding: 8px;
+    border: thin solid #FBF9F8;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px;
+    width: 100px;
+    float: center;
+  }
+  nav a:visited {
+    color: black;
+  }
+  nav a:hover {
+    background-color: palegoldenrod;
+    color:red;
+  }
+  nav a:active {
+    font-weight: bold;
+  }
+  /* Nav ending */
+  
+  /* start */
+  article {
+    margin-bottom: 16px;
+  }
+  article img {
+    float: left;
+    width: 350px;
+    margin-right: 20px;
+  }
+  .clearFloat {
+    clear: both;
+  }
+  .rightContent {
+    float: right;
+  }
+  /* End Editting Article*/
+  
+  /*   Start Editting Tabel    */
+  caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
