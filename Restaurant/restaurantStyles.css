@@ -26,7 +26,7 @@ body {
   
   /* Nav beginning*/
   nav a {
-    background: palevioletred;
+    background: indianred;
     color: #FBF9F8;
     padding: 8px;
     border: thin solid #FBF9F8;
@@ -72,3 +72,31 @@ body {
     font-size: 1.2em;
     margin-bottom: 8px;
   }
+
+  /*menu editing begins*/
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 5px;
+}
+table {
+  width:80%;
+  margin: auto;
+  color: white;
+}
+tr{
+  height: 30px
+}
+th{
+  background: maroon;
+  color: #FBF9F8;
+}
+tr:nth-child(odd) {
+  background-color: maroon;
+}
+/* text for table*/
+td {
+text-align: center;  
+}
+/* End Menu */
