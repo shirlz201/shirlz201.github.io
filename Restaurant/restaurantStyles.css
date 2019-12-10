@@ -70,7 +70,7 @@ body {
   /*menu editing begins*/
 
 table, th, td {
-  border: 1px solid black;
+  border: 1.2px solid black;
   border-collapse: collapse;
   padding: 5px 5px;
 }
