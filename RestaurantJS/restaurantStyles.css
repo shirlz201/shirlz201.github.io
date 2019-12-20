@@ -108,7 +108,7 @@ font-weight: bold;
 }
 
 /* background for jumbotron */
-.container {
+.jumbo {
   background-color:yellow;
   border: 1.5px solid white;
   font-family: 'Permanent Marker', cursive;
@@ -131,4 +131,9 @@ font-weight: bold;
 
 .center-pills { display: inline-block; }
 
-.table-responsive{-sm|-md|-lg|-xl}
+.homeIcon {
+  width: 70px;
+  margin-top: 20px;
+  margin-right:250px;
+  float:center;
+}
