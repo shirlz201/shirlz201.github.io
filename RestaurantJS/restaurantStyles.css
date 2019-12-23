@@ -73,6 +73,12 @@ body {
 
   /*menu editing begins*/
 
+  .menuPics {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
 table, th, td {
   border: 1.2px solid black;
   border-collapse: collapse;
