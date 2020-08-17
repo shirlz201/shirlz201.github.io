@@ -1,27 +1,192 @@
 <!DOCTYPE html>
 <html>
-  <head><title>Landing Page</title></head>
-  <body style="background-color:plum;"><center></center>
-  <body>
-    <h1> Shirley Sosa</h1>
-    <hr>
-    <img src="https://cdn.pixabay.com/photo/2017/01/16/19/54/sunset-1985086__340.jpg">
-    <ul>
-      <li><h2> <div id "ContentArea" style =color:purple;">My Links </div> </h2></li>
-      <ul>
-        <li><a href="Portfolio/index1.html.html">My Portfolio</a></li>
-        <li><a href="PortfolioCSS/testIndex.html">My Portfolio CSS</a></li>
-        <li><a href="https://github.com/shirlz201/shirlz201.github.io">Github</a></li>
-        <li><a href="https://carpediemncode.wordpress.com/">My Blog</a></li>
-      </ul>
-      <li><h2> <div id "ContentArea" style = color:purple;">My Project </div></h2></li>
-      <ul>
-        <li><a href="RestaurantHTML/index.html">Restaurant HTML</a></li>
-        <li><a href="RestaurantCSS/index.html">Restaurant CSS </a></li>
-        <li><a href="RestaurantJS/index.html">Restaurant JS</a></li>
-      </ul>
 
-    </ul>
-  </body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- google fonts-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nixie+One&family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="Portfolio/main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Title(will appear on tab) - unicode added for flower-->
+  <title> &#127799; Shirley </title>
+</head>
+
+<body>
+  <!-- Nav bar begins-->
+
+  <nav class="navbar navbar-expand-md navbar-dark py-3" id="navbar" ;>
+    <a class="navbar-brand" id="name"> Shirley </a>
+    <!--Hamburger button option for smaller screens-->
+    <button class="navbar-toggler" data-toggle="collapse" data-target='#navbar-menu'>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar-menu">
+      <!--nav bar with centered mx-auto links-->
+      <ul class="navbar-nav">
+        <a class="nav-item nav-link" href="#bio">About</a>
+        <a class="nav-item nav-link" href="#project">Projects</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+      </ul>
+    </div>
+
+  </nav>
+  <!--Nav bar ends-->
+
+  <!--Bio Info-->
+  <div class="container" id="bio">
+    <hr>
+
+    <p><img src="Portfolio/images/meee.jpg" class="Avatar" alt="pictureofme" width="300" height="335">
+      <br>
+      <br>
+
+      <span style="font-size: 40px;"><img src="https://img.icons8.com/emoji/48/000000/waving-hand-emoji.png" /> <b>I'm
+          Shirley</span><br>
+      Full-stack developer. Artist. Photographer.</b></p>
+    <hr>
+  </div>
+
+
+  <div class="container" id="bio">
+    <b>
+      <p id="header">About Me</p>
+    </b>
+    <p>
+      Greetings! I'm Shirley Layme-Sosa, a full-stack web developer. I'm drawn to web development through a love of
+      problem-solving, innovating, and creative solutions. I'm a coding bootcamp graduate
+      from The Software Guild. When I'm not coding, I enjoy working on DIY projects, traveling, photography and yoga. </p>
+    <hr>
+  </div>
+
+  <div class="container" id="contact">
+    <b>
+      <p id="header">Technical Skills</p>
+    </b>
+    <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" />
+    <img src="https://img.icons8.com/color/48/000000/html-5.png" />
+    <img src="https://img.icons8.com/color/48/000000/css3.png" />
+    <img src="https://img.icons8.com/color/48/000000/javascript-logo-1.png" />
+    <img src="https://img.icons8.com/wired/64/000000/api-settings.png" />
+    <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
+    <img src="https://img.icons8.com/color/48/000000/spring-logo.png" />
+    <img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png" />
+    <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" />
+
+
+    <hr>
+  </div>
+
+  <!--Project Info-->
+  <center>
+    <div class="container" id="project">
+
+      <b>
+        <p id="header">Projects</p>
+      </b>
+
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="Portfolio/images/cmsdemo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Blog and Content Management Site</h3>
+              <p class="card-text">A full-stack web app that has login authentication, user and content management
+                following CRUD methologies and reads content from database. <br>
+                <b>Technologies used:</b> Java, Thymeleaf, MySQL, Spring MVC, Spring Security, HTML, CSS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="Portfolio/images/herodemo.png" class="card-img-top" alt="..." height="270">
+            <div class="card-body">
+              <h3 class="card-title">Hero Sightings Database (Group Project)</h3>
+              <p class="card-text">A full-stack Spring Boot web app for logging hero/villain sightings following CRUD
+                methologies and storing information of the hero. <br>
+                <b>Technologies used:</b> Java, Thymeleaf, MySQL, Spring MVC, HTML, CSS, JUnit Testing </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="Portfolio/images/vmdemo.png" class="card-img-top" alt="..." width="300" height="310">
+            <div class="card-body">
+              <h3 class="card-title">Vending Machine</h3>
+              <p class="card-text">A dynamic user-interface consuming a REST API. <b>Technologies used:</b> Javascript,
+                AJAX, jQuery, REST APIs, HTML, CSS, Bootstrap</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="Portfolio/images/restaurantjsdemo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Restaurant Website</h3>
+              <p class="card-text">Responsive restaurant website. <br>
+                <b>Technologies used:</b> HTML, CSS, JavaScript and Bootstrap
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </center>
+
+
+  <!--Contact Info-->
+  <div class="container" id="contact">
+    <hr>
+    <b>
+      <p id="header">Contact Me</p>
+    </b>
+    <center>
+      <p>Feel free to reach out!</p>
+
+      <a href="https://github.com/shirlz201">
+        <img src="https://img.icons8.com/dusk/64/000000/github.png" />
+      </a>
+      <a href="https://www.linkedin.com/in/shirleylaymesosa/">
+        <img src="https://img.icons8.com/dusk/64/000000/linkedin.png" />
+      </a>
+      <a href="mailto:slaymesosa@gmail.com">
+        <img src="https://img.icons8.com/dusk/64/000000/gmail-login.png" />
+      </a>
+      <a href="https://twitter.com/shirlz201">
+        <img src="https://img.icons8.com/dusk/64/000000/twitter.png" />
+      </a>
+      <a href="https://drive.google.com/file/d/1FW08fh-RDj63SIcNg1uToupTK-1VYUQG/view?usp=sharing">
+        <img src="https://img.icons8.com/dusk/64/000000/resume.png" />
+      </a>
+      <br>
+      <br>
+    </center>
+    <hr>
+
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</body>
 
 </html>
