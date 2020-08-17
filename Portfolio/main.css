@@ -13,7 +13,7 @@ body {
     background-size: 110%;
 }
 
-#bio,#project,#contact,#footer {
+#bio1,#bio,#project,#contact,#skills {
     text-align: center;
     background-color: lavenderblush;
 }
