@@ -20,26 +20,26 @@
 
 <body>
   <!-- Nav bar begins-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed top" id="navbar">
+      <a class="navbar-brand" id="name"> Shirley </a>
+      <!--Hamburger button option-->
+      <button class="navbar-toggler" data-toggle="collapse" data-target='#navbar-menu'>
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed top" id="navbar">
-    <a class="navbar-brand" id="name"> Shirley </a>
-    <!--Hamburger button option-->
-    <button class="navbar-toggler" data-toggle="collapse" data-target='#navbar-menu'>
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <div class="collapse navbar-collapse ml-2" id="navbar-menu">
+        <!--nav bar with centered mx-auto links-->
+        <ul class="navbar-nav">
+          <a class="nav-item nav-link" href="#bio">About</a>
+          <a class="nav-item nav-link" href="#project">Projects</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </ul>
+      </div>
 
-    <div class="collapse navbar-collapse ml-2" id="navbar-menu">
-      <!--nav bar with centered mx-auto links-->
-      <ul class="navbar-nav">
-        <a class="nav-item nav-link" href="#bio">About</a>
-        <a class="nav-item nav-link" href="#project">Projects</a>
-        <a class="nav-item nav-link" href="#contact">Contact</a>
-      </ul>
-    </div>
-
-  </nav>
-  <!--Nav bar ends-->
-
+    </nav>
+    <!--Nav bar ends-->
+  </header>
   <!--Bio Info-->
   <div class="container" id="bio1">
     <hr>
@@ -96,7 +96,14 @@
       <div class="row row-cols-1 row-cols-md-2">
         <div class="col mb-4">
           <div class="card">
-            <img src="Portfolio/images/cmsdemo.png" class="card-img-top" alt="..."width="300" height="310">
+            <img src="Portfolio/images/cmsdemo.png" class="card-img-top" alt="Blog Website Demo" width="300"
+              height="310">
+            </a>
+            <div class="overlay">
+              <div class="text"> <a href="https://github.com/shirlz201/TSG-projects/tree/master/bloggg"><img
+                    src="https://img.icons8.com/dotty/160/000000/code--v2.png" /></a>
+              </div>
+            </div>
             <div class="card-body">
               <h3 class="card-title">Blog and Content Management Site</h3>
               <p class="card-text">A full-stack web app that has login authentication, user and content management
@@ -107,7 +114,15 @@
         </div>
         <div class="col mb-4">
           <div class="card">
-            <img src="Portfolio/images/herodemo.png" class="card-img-top" alt="..." width="300" height="310">
+            <img src="Portfolio/images/herodemo.png" class="card-img-top" alt="Hero DB Website Demo" width="300"
+              height="310">
+            </a>
+            <div class="overlay">
+              <div class="text"> <a href="https://github.com/MatiasTong/Superhero"> <img
+                    src="https://img.icons8.com/dotty/160/000000/code--v2.png" /></a>
+              </div>
+            </div>
+
             <div class="card-body">
               <h3 class="card-title">Hero Sightings Database (Group Project)</h3>
               <p class="card-text">A full-stack Spring Boot web app for logging hero and villain sightings following
@@ -119,7 +134,16 @@
         </div>
         <div class="col mb-4">
           <div class="card">
-            <img src="Portfolio/images/vmdemo.png" class="card-img-top" alt="..." width="300" height="310">
+            <img src="Portfolio/images/vmdemo.png" class="card-img-top" alt="Vending Machine Website Demo" width="300"
+              height="310">
+            </a>
+
+            <div class="overlay">
+              <div class="text"> <a href="https://github.com/shirlz201/TSG-projects/tree/master/VendingMachineM3"> <img
+                    src="https://img.icons8.com/dotty/160/000000/code--v2.png" /></a>
+              </div>
+            </div>
+
             <div class="card-body">
               <h3 class="card-title">Vending Machine</h3>
               <p class="card-text">A dynamic user-interface consuming a REST API. <br> <b>Technologies used:</b>
@@ -130,7 +154,15 @@
         </div>
         <div class="col mb-4">
           <div class="card">
-            <img src="Portfolio/images/restaurantjsdemo.png" class="card-img-top" alt="..."width="300" height="310">
+            <img src="Portfolio/images/restaurantjsdemo.png" class="card-img-top" alt="Restaurant Website Demo"
+              width="300" height="310">
+            </a>
+
+            <div class="overlay">
+              <div class="text"> <a href="https://github.com/shirlz201/shirlz201.github.io"> <img
+                    src="https://img.icons8.com/dotty/160/000000/code--v2.png" /></a>
+              </div>
+            </div>
             <div class="card-body">
               <h3 class="card-title">Restaurant Website</h3>
               <p class="card-text">A responsive restaurant website with form validation implemented. <br>
