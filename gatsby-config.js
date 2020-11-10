@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Shirley 🌹',
+    title: 'Shirley Layme-Sosa',
     author: 'Shirley Layme-Sosa',
     description: 'Personal Website using Gatsby.js',
 
@@ -16,7 +16,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: '🌹', // This path is relative to the root of the site.
+        icon: 'src/images/flower.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
