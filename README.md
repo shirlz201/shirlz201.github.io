@@ -1,5 +1,5 @@
-# Personal Website
+# Personal Website :)
 
-used Gatsby.js/SCSS
+Built using Gatsby.js
 
 
