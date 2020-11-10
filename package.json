@@ -1,8 +1,8 @@
 {
-  "name": "Shirley 🌹",
-  "description": "Personal Website",
+  "name": "gatsby-starter-dimension-v2",
+  "description": "Gatsby Starter - Dimension V2",
   "version": "1.0.0",
-  "author": "Shirley 🌹",
+  "author": "Hunter Chang",
   "dependencies": {
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
