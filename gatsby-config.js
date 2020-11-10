@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Shirley 🌹',
     author: 'Shirley Layme-Sosa',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    description: 'Personal Website using Gatsby.js',
 
   },
   plugins: [
