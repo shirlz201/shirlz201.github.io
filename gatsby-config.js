@@ -3,6 +3,7 @@ module.exports = {
     title: 'Gatsby Starter - Dimension V2',
     author: 'Shirley Layme-Sosa',
     description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+
   },
   plugins: [
     'gatsby-plugin-react-helmet',
